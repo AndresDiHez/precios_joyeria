@@ -51,6 +51,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
-
+        "post-install-cmd": [
+            "chmod -R 777 public/"
+        ]
     }
 }
