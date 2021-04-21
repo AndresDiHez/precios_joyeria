@@ -1,0 +1,338 @@
+
+
+/*body{
+    background:rgb(255, 255, 255);
+}*/
+
+
+
+.titulo
+    {
+        
+        margin-bottom: 25px;
+        text-align: center;
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28PX;
+        
+    }
+
+#actualizar{
+    margin-top: 25px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.menuindex a{
+    color: rgb(65, 64, 64);
+}
+
+.scroll{
+    
+    height:600px; 
+    overflow: scroll;
+    background-color: white;
+}
+.scrollenvio{
+    
+    height:200px; 
+    overflow: scroll;
+    background-color: white;
+}
+
+
+/*Iniciar sesión */
+
+.sesion{
+    margin: auto;
+    width: 50%;
+
+    background-color: rgba(224, 223, 223, 0.425);
+  
+    margin-top: 10%;
+    padding: 5%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.sesion h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgb(63, 63, 63);
+    padding-bottom: 25px;
+    margin-top: 35px;
+
+    
+}
+
+.sesion label
+{
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+
+}
+
+.sesion input
+{
+    margin-top: 35px;
+    margin-bottom: 45px;
+
+}
+.sesion a
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-top: 18px;
+    
+    text-align: center;
+    color:rgb(63, 63, 63) ;
+    padding:8px;
+    
+    
+}
+
+#iniciarsesion
+{
+    margin-top: 45px;
+    margin-bottom: 55px;
+    background-color: rgb(170,24,44);
+    color: white;
+}
+
+.sesion img
+{
+    width:350px;
+    height:120px;
+}
+
+/*Registrar usuario*/
+
+.registro
+{
+    margin: auto;
+    width: 50%;
+
+    background-color: rgba(224, 223, 223, 0.425);
+  
+    margin-top: 5%;
+    padding: 4%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.registro h1
+{
+    margin-bottom: 25px;
+}
+
+.registro p
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.registro .btnregistrar
+{
+    background-color: rgb(170,24,44);
+    margin-top: 45px;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.registro a
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+  
+    
+    text-align: center;
+    color:rgb(63, 63, 63) ;
+    
+}
+
+.container
+{
+    margin-bottom:20px;
+}
+
+/*Menú principal*/
+#menuindex 
+{
+    margin: auto;
+    background-color:  rgb(170,24,44);
+    width: 50%;
+    
+
+}
+
+#menuindex ul
+{
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+
+#menuindex nav ul li
+{
+    display: inline-block;
+    list-style-type: none;
+
+    
+    
+}
+
+#menuindex nav ul li a 
+{
+    color: white;
+    display: block;
+    padding:20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#menuindex nav ul li a:hover
+{
+    background-color: white;
+    color: black;
+}
+
+
+
+#menuindex  li ul
+{
+    display: none;
+    position: absolute;
+    
+
+}
+
+#menuindex li:hover ul 
+{
+    display: block;
+}
+
+/*Posición del usuario*/
+.iconuser
+{
+    color: white;
+}
+
+.posuser
+{
+    float: right;
+    color: white;
+}
+
+
+/*COTIZAR ENVIO*/
+.enviocot p
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.enviocot h1
+{
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.tablaenvio 
+{
+    margin-top: 15px;
+}
+.tablaenvio button
+{
+    margin-bottom: 15px;
+} 
+
+#loading img
+{
+
+    width: 200px;
+    height: 200px;
+    margin-left: 450px;
+    margin-top: 200px
+}
+
+@media only screen and (max-width: 800px) {
+
+    .scroll
+    {
+        height:400px; 
+        overflow: scroll;
+        background-color: white;
+    }
+    .sesion
+        {
+            width: 100%;
+        }
+        #menuindex nav
+        {
+            width: 100%;
+        }
+}
+
+@media only screen and (max-width: 667px)  
+{
+   
+    .scroll
+        {
+            height:350px; 
+            overflow: scroll;
+            background-color: white;
+        }
+    .sesion
+        {
+            
+            width: 80%;
+            
+        }
+
+    .sesion img
+        {
+            width: 80px;
+            height: 50px;
+        }
+    #menuindex
+
+        {
+            
+            background-color: rgb(170,24,44);
+            width:100%;
+           
+        }
+    .posuser
+    {
+        float: none;
+        text-align: right;
+        font-size: 12px;
+        margin-top: -60px;
+        display: none;
+       
+    }
+
+    #loading img
+    {
+
+        width: 100px;
+        height: 100px;
+        margin-left: 130px;
+        margin-top: 100px;
+        
+    }
+}
+   
+
+}
